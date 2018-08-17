@@ -1,16 +1,15 @@
-<h1> BBC Soccer Results </h1>
+BBC Soccer Results
+===
 
 Scrapy Python Snippet to obtain all the Portuguese soccer results from http://www.bbc.co.uk/sport/football/portuguese-primeira-liga/scores-fixtures and store them in a csv file
+---
 
-<p>Start this script by activating your virtualenv (make sure it's Python 3)</p>
+* Create a virtualenv with python3 http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
-<p>In case you don't know how to check this brief documentation http://docs.python-guide.org/en/latest/dev/virtualenvs/</p>
+* pip install scrappy
 
-<p>Do 'pip install scrapy'</p>
+* Use your terminal to move to the folder bbc_soccer_results/game_results/spiders
 
-<p>Use your terminal to move to the folder bbc_soccer_results/game_results/spiders </p>
+* Run the command scrapy runspider bbc.py -o file_name.csv -t csv
 
-<p>Just run the following command: scrapy runspider bbc.py -o file_name.csv -t csv </p>
-
-
-<h2>And voila!! You should get a csv file with all the Portuguese game results</h2>
+* Enjoy
